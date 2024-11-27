@@ -35,13 +35,17 @@
 
 ## Overview
 
-<code>❯ REPLACE-ME</code>
+A backend service for managing financial transactions, built using modern and efficient technologies for high performance. This API leverages Fastify for fast HTTP handling, SQLite for lightweight database storage, and Vitest for end-to-end testing.
 
 ---
 
 ## Features
 
-<code>❯ REPLACE-ME</code>
+- **Fast and Scalable**: Built with Fastify, a high-performance framework for Node.js.
+- **Flexible Query Building**: Knex.js used for database interaction.
+- **Lightweight Database**: SQLite for efficient and simple local data storage.
+- **Schema Validation**: Zod for ensuring data integrity with runtime validation.
+- **Robust Testing**: End-to-end tests written using Vitest.
 
 ---
 
@@ -78,19 +82,15 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/package-lock.json'>package-lock.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/tsconfig.json'>tsconfig.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/package.json'>package.json</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/knexfile.ts'>knexfile.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 		</blockquote>
@@ -101,15 +101,12 @@
 			<table>
 			<tr>
 				<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/index.ts'>index.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/database.ts'>database.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			<tr>
 				<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/app.ts'>app.ts</a></b></td>
-				<td><code>❯ REPLACE-ME</code></td>
 			</tr>
 			</table>
 			<details>
@@ -118,7 +115,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/env/index.ts'>index.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -129,7 +125,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/middlewares/check-session-id-exist.ts'>check-session-id-exist.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -140,7 +135,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/test/transactions.test.ts'>transactions.test.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -151,7 +145,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/@types/knex.d.ts'>knex.d.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -162,7 +155,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/routes/index.ts'>index.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -173,7 +165,6 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/src/controller/transactions.ts'>transactions.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -189,11 +180,9 @@
 					<table>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/db/migrations/20241126010257_create-transactions.ts'>20241126010257_create-transactions.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					<tr>
 						<td><b><a href='https://github.com/lucasgomesoficial/api-transactions/blob/master/db/migrations/20241126141936_add-session-id-to-transactions.ts'>20241126141936_add-session-id-to-transactions.ts</a></b></td>
-						<td><code>❯ REPLACE-ME</code></td>
 					</tr>
 					</table>
 				</blockquote>
@@ -210,8 +199,7 @@
 
 Before getting started with api-transactions, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** TypeScript
-- **Package Manager:** Npm
+- [Node.js](https://nodejs.org/) (v18+ recommended)
 
 ### Installation
 
@@ -233,10 +221,18 @@ Install api-transactions using one of the following methods:
 
 3. Install the project dependencies:
 
-**Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+Using `npm`\*\* &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
 ❯ npm install
+```
+
+3. Run the migrations:
+
+Using `npm`\*\* &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+
+```sh
+❯ npm run knex -- migrate:latest
 ```
 
 ### Usage
@@ -256,14 +252,6 @@ Run the test suite using the following command:
 ```sh
 ❯ npm test
 ```
-
----
-
-## Project Roadmap
-
-- [x] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
 
 ---
 
@@ -307,11 +295,3 @@ Run the test suite using the following command:
    </a>
 </p>
 </details>
-
----
-
-## Acknowledgments
-
-- List any resources, contributors, inspiration, etc. here.
-
----
