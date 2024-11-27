@@ -1,22 +1,19 @@
-<div align="left" style="position: relative;">
-<img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" align="right" width="30%" style="margin: -20px 0 0 20px;">
-<h1>API-TRANSACTIONS</h1>
-<p align="left">
-	<em><code>❯ REPLACE-ME</code></em>
+<p align="center">
+    <img src="https://img.icons8.com/external-tal-revivo-regular-tal-revivo/96/external-readme-is-a-easy-to-build-a-developer-hub-that-adapts-to-the-user-logo-regular-tal-revivo.png" align="center" width="30%">
 </p>
-<p align="left">
+<p align="center"><h1 align="center">API-TRANSACTIONS</h1></p>
+<p align="center">
 	<img src="https://img.shields.io/github/license/lucasgomesoficial/api-transactions?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
 	<img src="https://img.shields.io/github/last-commit/lucasgomesoficial/api-transactions?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
 	<img src="https://img.shields.io/github/languages/top/lucasgomesoficial/api-transactions?style=default&color=0080ff" alt="repo-top-language">
 	<img src="https://img.shields.io/github/languages/count/lucasgomesoficial/api-transactions?style=default&color=0080ff" alt="repo-language-count">
 </p>
-<p align="left"><!-- default option, no dependency badges. -->
+<p align="center"><!-- default option, no dependency badges. -->
 </p>
-<p align="left">
+<p align="center">
 	<!-- default option, no dependency badges. -->
 </p>
-</div>
-<br clear="right">
+<br>
 
 ## Table of Contents
 
@@ -52,19 +49,9 @@
 
 ```sh
 └── api-transactions/
-    ├── blabla.md
+    ├── README.md
     ├── db
     │   └── migrations
-    ├── dist
-    │   ├── @types
-    │   ├── app.js
-    │   ├── controller
-    │   ├── database.js
-    │   ├── env
-    │   ├── index.js
-    │   ├── middlewares
-    │   ├── routes
-    │   └── test
     ├── knexfile.ts
     ├── package-lock.json
     ├── package.json
@@ -258,7 +245,7 @@ Run api-transactions using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
-❯ npm start
+❯ npm dev
 ```
 
 ### Testing
@@ -320,12 +307,6 @@ Run the test suite using the following command:
    </a>
 </p>
 </details>
-
----
-
-## License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
