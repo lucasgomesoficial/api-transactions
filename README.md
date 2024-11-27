@@ -219,17 +219,13 @@ Install api-transactions using one of the following methods:
 ❯ cd api-transactions
 ```
 
-3. Install the project dependencies:
-
-Using `npm`\*\* &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+3. Install the project dependencies: **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
 ❯ npm install
 ```
 
-3. Run the migrations:
-
-Using `npm`\*\* &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
+4. Run the migrations: **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```sh
 ❯ npm run knex -- migrate:latest
